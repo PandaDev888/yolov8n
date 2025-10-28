@@ -1,0 +1,12 @@
+train: ./train/images
+val: ./train/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: plate-va45e
+  project: taiwan-plate
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plate-va45e/taiwan-plate/dataset/2
